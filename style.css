@@ -111,13 +111,15 @@ td,th,table {
         font-size: 20px;
     }
     #center {
-        margin: auto;
+        width: 350px;
+        height: 300px;
+        margin: 30px;
         margin-top: 60%;
         /* color: white; */
     }
     #testdiv {
         margin-top: 145px;
-        margin-left: 23%; 
+        margin-left: 20%; 
     }
     #tablediv {
         width: 300px;
@@ -131,5 +133,11 @@ td,th,table {
         padding: 5px;
         border: 1px solid black;
         border-collapse: collapse;
+    }
+    .bottom {
+        position: fixed;
+        bottom: 50px;
+        background-color: rgb(62, 66, 68) ;
+        margin-left: 30px;
     }
 }
