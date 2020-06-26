@@ -1,6 +1,6 @@
 #center {
     background-color:rgb(51, 49, 49);
-    width: 500px;
+    max-width: 500px;
     padding: 40px;
     height: 300px;
     margin: auto;
@@ -30,10 +30,10 @@
     background-color: chartreuse;
 }
 #testdiv {
-    width: 250px;
+    width: 300px;
     height: 100px;
-    margin-top: 250px;
-    margin-left: 425px; 
+    margin-top: 145px;
+    margin-left: 15%; 
     position: fixed;
     padding: 25px;
 }
@@ -43,6 +43,8 @@ body {
 .bottom {
     position: fixed;
     bottom: 100px;
+    background-color: rgb(62, 66, 68) ;
+    margin-left: 30px;
 }
 a  {
     color: white;
@@ -100,4 +102,34 @@ td,th,table {
 #button3 {
     background-color: lightblue;
     border-radius: 100%;
+}
+.wrapper {
+    width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+    a  {
+        font-size: 20px;
+    }
+    #center {
+        margin: auto;
+        margin-top: 60%;
+        /* color: white; */
+    }
+    #testdiv {
+        margin-top: 145px;
+        margin-left: 23%; 
+    }
+    #tablediv {
+        width: 300px;
+        padding: 40px;
+        height: 200px;
+        margin: 40px;
+        margin-top: 15%;
+    }
+    td,th,table {
+        margin: auto;
+        padding: 5px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
 }
