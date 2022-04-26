@@ -2,10 +2,6 @@
 
 Learning to git
 
-hi
-there
-i 
-wish
-you
-all
-good
+## Demo 2
+1. I wrote this in the testing branch
+2. i love testing
